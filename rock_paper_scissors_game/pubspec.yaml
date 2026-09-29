@@ -1,0 +1,30 @@
+name: rock_paper_scissors_game
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.7.2 # For MVC pattern implementation
+  rive: ^0.11.4 # For complex animations
+  flutter_animate: ^4.5.0
+  audioplayers: ^5.2.1
+  shared_preferences: ^2.2.1 # For storing scores
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/
+    - assets/images/
